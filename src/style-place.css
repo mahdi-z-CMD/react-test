@@ -1,0 +1,227 @@
+
+  html {
+      font-size: 60.5%;
+      font-family: 'dana';
+      scroll-behavior: smooth;
+  }
+  .slick-slider {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: 5%;
+  }
+  .slick-slider video {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+  }
+/* detail header */
+.details{
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-bottom: 1px solid #E2E8F0;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+}
+.details h1{
+  margin-right: 5%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+/* detail header end */
+/* detail body */
+.mySlides p{
+  direction: rtl;
+  font-size: 1.5rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: rgba(0,0,0,.8);
+}
+/* --------- */
+.slideshow-containerr {
+  position: relative;
+}
+
+/* Slides */
+.mySlides {
+  display: block;
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: right;
+  padding-bottom: 5%;
+}
+/* detail body end */
+/* login area */
+.login-area{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3%;
+}
+.lgn{
+  background-color: rgba(61, 240, 1, 0.955);
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: all .3s;
+  text-align: center;
+  font-family: 'dana';
+  color: black;
+  font-size: 1.3rem;
+  padding: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  
+}
+.lgn:hover{
+  transition: all .3s;
+  background-color: rgba(61, 240, 1, 1);
+  border-radius: 5px;
+}
+/* login area end */
+.joda{
+  margin-top: 1%;
+  border-bottom: 1px solid #E2E8F0;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+/* form sabte name */
+.form-singin{
+  display: flex;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20%;
+  font-size: 1.3rem;
+}
+.form-singin div{
+  direction: rtl;
+  flex-basis: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;
+}
+.form-singin div label{
+  direction: rtl;
+  margin-left: 5%;
+}
+.form-singin div input{
+  direction: rtl;
+  margin-left: 5%;
+}
+.form-singin select{
+  border-radius: 8px;
+  padding: 1%;
+  margin-left: 5%;
+}
+.form-singin button{
+  background-color: rgba(61, 240, 1, 0.955);
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: all .3s;
+  font-family: 'dana';
+  padding: 1%;
+  cursor: pointer;
+  margin-top: 10%;
+  left: -40%;
+  padding-right: 3%;
+  padding-left: 3%;
+  font-size: 1.5rem;
+  position: relative;
+}
+.emtiaz{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.emtiaz h2{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5%;
+  width: 20%;
+}
+.emtiaz h2 img{
+  width: 30%;
+  height: 30%;
+}
+.emtiaz h3{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.form-singin button:hover{
+  transition: all .3s;
+  background-color: rgba(61, 240, 1, 1);
+  border-radius: 5px;
+}
+/* form sabte name end */
+.search-container{
+  margin-right: 5%;
+  direction: rtl;
+  width: 100%;
+}
+.search-container input{
+  width: 60%;
+}
+.isearch{
+  border: none;
+  position: relative;
+  cursor: pointer;
+  left: 7%;
+  top: 6px;
+}
+@media only screen and (max-width: 768px) {
+  .slick-slider{
+    width: 80%;
+    height: 200px;
+  }
+  .details{
+      margin-top: 1%;
+      width: 90%;
+  }
+  .details h1{
+      margin-right: 5%;
+      margin-left: 5%;
+      cursor: pointer;
+      font-size: 1.3rem;
+  }
+  .mySlides p{
+      direction: rtl;
+      font-size: 1.2rem;
+      padding-right: 5%;
+      padding-left: 5%;
+      color: rgba(0,0,0,.8);
+  }
+  .search-container input{
+    width: 70%;
+  }
+  .isearch{
+    left: 20%;
+  }
+  .emtiaz{
+    width: 100%;
+  }
+  .emtiaz h1{
+    font-size: 1rem;
+  }
+  .emtiaz h2{
+    font-size: 1rem;
+    width: 20%;
+  }
+  .emtiaz h2 img{
+    width: 33%;
+    height: 33%;
+  }
+  .emtiaz h3{
+    font-size: 1rem;
+  }
+}
