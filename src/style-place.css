@@ -176,8 +176,10 @@
   border: none;
   position: relative;
   cursor: pointer;
-  left: 7%;
-  top: 6px;
+  left: 6%;
+  top: 5px;
+  width: 3%;
+  background-color: transparent;
 }
 @media only screen and (max-width: 768px) {
   .slick-slider{
@@ -205,7 +207,8 @@
     width: 70%;
   }
   .isearch{
-    left: 20%;
+    left: 13%;
+    width: 8%;
   }
   .emtiaz{
     width: 100%;

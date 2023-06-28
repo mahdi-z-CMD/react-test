@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import badmintonsvg from './images/badminton.webp'
 import ImageSliderAuto from './ImageSliderAuto';
 import { ImageData,ImageData2, ImageData3,ImageData4} from './JsonData';
-import { SearchOutline } from 'react-ionicons'
+import searchsvg from './search.svg'
 const Badminton = () =>{
   const [userlocx, setuserlocx] = useState(35.7304056);
   const [userlocy, setuserlocy] = useState(51.403759);
@@ -1818,7 +1818,7 @@ byDate.sort(function(a,b) {
     <div class="sort-area">
     <div class="search-container">
           <input type="text" placeholder="جستجو" onKeyDown={(e) =>{setsearching(e.target.value)}}></input>
-          <button className="isearch" type="submit" onClick={(e) =>{setsearching(e.target.value)}}><SearchOutline className="isearch2"></SearchOutline></button>
+          <img onClick={(e) =>{setsearching(e.target.value)}} src={searchsvg} className='isearch' />
       </div>
       <select name="فیلتر" class="filter" onChange={handleChange2}>
         <option value="none">بدون فیلتر</option>
