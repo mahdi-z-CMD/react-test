@@ -23,7 +23,7 @@ function Navbar() {
       </button>
       <ul className={`nav-menu ${isActive ? 'active' : ''}`}>
         <li className="nav-item">
-          <Link to="http://localhost:3000/Login" className='login-btn '>ورود / ثبت نام </Link>
+          <Link to="./Login" className='login-btn '>ورود / ثبت نام </Link>
         </li>
         <li className="nav-item">
           <a href="#about" className="nav-link" onClick={closeMenu}>پیگیری ثبت نام</a>
