@@ -15,7 +15,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/mahdi-z-CMD/react-test",
+    path: "/react-test",
     element: <App />,
   },
   {
