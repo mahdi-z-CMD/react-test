@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     element: <Login/>,
   },
   {
-    path: "/react-test/Singin",
+    path: "/react-test/Badminton/Aghdasie/Singin",
     element: <Singin/>,
   },
 ]);
