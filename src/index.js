@@ -19,19 +19,19 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "Badminton",
+    path: "/react-test/Badminton",
     element: <Badminton/>,
   },
   {
-    path: "Aghdasie",
+    path: "/react-test/Aghdasie",
     element: <Aghdasie/>,
   },
   {
-    path: "Login",
+    path: "/react-test/Login",
     element: <Login/>,
   },
   {
-    path: "Singin",
+    path: "/react-test/Singin",
     element: <Singin/>,
   },
 ]);

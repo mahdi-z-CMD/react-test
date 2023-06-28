@@ -87,7 +87,7 @@ const ImageSliderAuto = (props) => {
         <button onClick={toggleExpanded}>
         {isExpanded ? 'بستن' : 'ادامه'}
       </button>
-      <Link to={'http://localhost:3000/' + props.url}><button>
+      <Link to={props.url}><button>
         ثبت نام
       </button></Link>
     </div>
