@@ -74,7 +74,7 @@ function showPosition(position) {
         price: 250.000,
         score: 3.5,
         views: 298,
-        url: "./Aghdasie",
+        url: './Aghdasie',
         city: "tehran",
         result: haversine_distance(userlocx,userlocy,places.loc.locx ,places.loc.locy),
     },

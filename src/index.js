@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     element: <Badminton/>,
   },
   {
-    path: "/react-test/Aghdasie",
+    path: "/react-test/Badminton/Aghdasie",
     element: <Aghdasie/>,
   },
   {
