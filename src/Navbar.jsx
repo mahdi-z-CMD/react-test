@@ -23,22 +23,22 @@ function Navbar() {
       </button>
       <ul className={`nav-menu ${isActive ? 'active' : ''}`}>
         <li className="nav-item">
-          <Link to="/Login" className='login-btn '>ورود / ثبت نام </Link>
+          <Link to="/Login" className='login-btn'>ورود / ثبت نام </Link>
         </li>
         <li className="nav-item">
           <a href="#about" className="nav-link" onClick={closeMenu}>پیگیری ثبت نام</a>
         </li>
         <li className="nav-item">
-          <a href="#services" className="nav-link" onClick={closeMenu}>چرا فرزندم را اینجا ثبت نام کنم ؟</a>
+          <Link to="/Aboutus" className='nav-link'>چرا فرزندم را اینجا ثبت نام کنم؟</Link>
         </li>
         <li className="nav-item">
           <a href="#contact" className="nav-link" onClick={closeMenu}>تخفیف ها</a>
         </li>
         <li className="nav-item">
-          <a href="#contact" className="nav-link" onClick={closeMenu}>برترین ها</a>
+          <Link to="/Bartarin" className='nav-link'>برترین ها</Link>
         </li>
         <li className="nav-item">
-          <a href="#contact" className="nav-link" onClick={closeMenu}>تماس با ما</a>
+          <Link to="/Contactus" className='nav-link'>تماس با ما</Link>
         </li>
       </ul>
     </nav>

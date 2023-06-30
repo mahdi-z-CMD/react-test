@@ -6,8 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import Badminton from './Badminton';
 import Home from './Home';
 import Aghdasie from './Aghdasie';
+import Contactus from './Contactus';
 import Login from './Login';
 import Singin from './Singin'
+import Aboutus from './Aboutus';
+import Bartarin from './Bartarin';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -33,6 +36,18 @@ const router = createBrowserRouter([
   {
     path: "Singin",
     element: <Singin/>,
+  },
+  {
+    path: "Contactus",
+    element: <Contactus/>,
+  },
+  {
+    path: "Aboutus",
+    element: <Aboutus/>,
+  },
+  {
+    path: "Bartarin",
+    element: <Bartarin/>,
   },
 ]);
 

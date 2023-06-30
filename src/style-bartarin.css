@@ -1,0 +1,97 @@
+.bests-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.bests{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 50%;
+    height: 60vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.person-img{
+    border-radius: 100px;
+    margin-top: 2%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    margin-bottom: 1%;
+}
+.person-rotbe{
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.person-name{
+    margin-right: 2%;
+    margin-top: 5%;
+}
+.person-section{
+    display: flex;
+    margin-bottom: 1%;
+    flex-direction: row-reverse;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.name-varzesh{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 10%;
+}
+.name-varzesh h1{
+    margin-right: 3%;
+}
+.name-varzesh img{
+    width: 70px;
+    height: 55px;
+    margin-right: 3%;
+}
+@media (max-width: 768px) {
+    .person-img{
+        width: 30px;
+        height: 30px;
+
+    }
+    .name-varzesh h1{
+        margin-right: 3%;
+    }
+    .name-varzesh img{
+        width: 35px;
+        height: 35px;
+    }
+    .name-varzesh{
+        margin-bottom: 10%;
+    }
+    .person-rotbe{
+       font-size: 1.5rem;
+       margin-left: 3%;
+    }
+    .person-name{
+       font-size: 1.5rem;
+    }
+  }
+@media (max-width: 400px) {
+    .bests{
+        width: 80%;
+    }
+    .person-rotbe{
+        font-size: 1.7rem;
+        margin-left: 3%;
+     }
+     .person-name{
+        font-size: 1.7rem;
+     }
+     .person-img{
+        width: 40px;
+        height: 40px;
+
+    }
+  }
