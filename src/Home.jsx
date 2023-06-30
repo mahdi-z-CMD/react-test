@@ -55,7 +55,7 @@ const Home = (() => {
         <h1 className="khas">تابستون خاص برای آدم های خاص</h1>
     <p className="texts"><img width="3%" height="3%" src={show_image} alt="badminton" class="texts"/>{show_name}</p>
         <div className="donut">
-            <Link to='./Badminton'><a href="#1" className="logos-main logo1"><img width="12%" height="12%" src={badminton} alt="badminton" onMouseOver={() => {change(badminton,'بدمینتون')}}/></a></Link>
+            <Link to='/Badminton'><a href="#1" className="logos-main logo1"><img width="12%" height="12%" src={badminton} alt="badminton" onMouseOver={() => {change(badminton,'بدمینتون')}}/></a></Link>
             <a href="#2" className="logos-main logo2"><img width="16%" height="16%" src={barbell} alt="barbell" onMouseOver={() => {change(barbell,'بدن سازی')}}/></a>
             <a href="#3" className="logos-main logo3"><img width="12%" height="12%" src={basketballball} alt="basketball" onMouseOver={() => {change(basketballball,'بسکتبال')}}/></a>
             <a href="#4" className="logos-main logo4"><img width="12%" height="12%" src={bowling} alt="bowling" onMouseOver={() => {change(bowling,'بولینگ')}}/></a>

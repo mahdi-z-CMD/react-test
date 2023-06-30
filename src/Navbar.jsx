@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-        <Link to='/'><a href="#" class="nav-logo">LOGO</a></Link>
+        <Link to='/react-test'><a href="#" class="nav-logo">LOGO</a></Link>
       <button className={`hamburger ${isActive ? 'active' : ''}`} onClick={handleClick}>
             <span class="bar"></span>
                 <span class="bar"></span>
@@ -23,7 +23,7 @@ function Navbar() {
       </button>
       <ul className={`nav-menu ${isActive ? 'active' : ''}`}>
         <li className="nav-item">
-          <Link to="./Login" className='login-btn '>ورود / ثبت نام </Link>
+          <Link to="/Login" className='login-btn '>ورود / ثبت نام </Link>
         </li>
         <li className="nav-item">
           <a href="#about" className="nav-link" onClick={closeMenu}>پیگیری ثبت نام</a>

@@ -15,23 +15,23 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/react-test",
+    path: "/react-test/",
     element: <App />,
   },
   {
-    path: "/react-test/Badminton",
+    path: "Badminton",
     element: <Badminton/>,
   },
   {
-    path: "/react-test/Badminton/Aghdasie",
+    path: "Aghdasie",
     element: <Aghdasie/>,
   },
   {
-    path: "/react-test/Login",
+    path: "Login",
     element: <Login/>,
   },
   {
-    path: "/react-test/Badminton/Aghdasie/Singin",
+    path: "Singin",
     element: <Singin/>,
   },
 ]);

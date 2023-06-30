@@ -52,7 +52,8 @@
   .nav-menu {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
+      direction: rtl;
       z-index: 10;
   }
   
@@ -544,6 +545,9 @@
     .slider-container {
       height: 300px;
     }
+    .nav-menu{
+      background-color: red;
+    }
   }
   /*adkfjlkasdfja  */
 
@@ -666,20 +670,20 @@
     }
       .nav-menu {
           position: fixed;
-          left: 250%;
+          left: 150%;
           top: 5rem;
           flex-direction: column;
           background-color: #fff;
-          width: 100%;
+          width: 40%;
           border-radius: 10px;
-          text-align: center;
+          text-align: right;
           transition: 0.3s;
           box-shadow:
               0 10px 27px rgba(0, 0, 0, 0.05);
       }
   
       .nav-menu.active {
-          left: 0;
+          left: 55%;
       }
   
       .nav-item {

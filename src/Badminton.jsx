@@ -75,7 +75,7 @@ function showPosition(position) {
         score: 3.5,
         views: 298,
         city: "tehran",
-        url: './Aghdasie',
+        url: '/Aghdasie',
         result: haversine_distance(userlocx,userlocy,places.loc.locx ,places.loc.locy),
     },
     {
@@ -87,7 +87,7 @@ function showPosition(position) {
         score: 4.5,
         views: 378,
         city: "tehran",
-        url: "./Aghdasie",
+        url: "/Aghdasie",
         result: haversine_distance(userlocx,userlocy,places.loc3.locx ,places.loc3.locy),
     },
     {
@@ -99,7 +99,7 @@ function showPosition(position) {
         score: 2.5,
         views: 50,
         city: "tehran",
-        url: "./Aghdasie",
+        url: "/Aghdasie",
         result: haversine_distance(userlocx,userlocy,places.loc2.locx ,places.loc2.locy),
     },
     {
@@ -111,7 +111,7 @@ function showPosition(position) {
         score: 2,
         views: 120,
         city: "ardebil",
-        url: "./Aghdasie",
+        url: "/Aghdasie",
         result: haversine_distance(userlocx,userlocy,places.loc4.locx ,places.loc4.locy),
     },
     {
@@ -123,7 +123,7 @@ function showPosition(position) {
         score: 3.5,
         views: 19,
         city: "azargharbi",
-        url: "./Aghdasie",
+        url: "/Aghdasie",
         result: haversine_distance(userlocx,userlocy,places.loc5.locx ,places.loc5.locy),
     },
     {
@@ -135,7 +135,7 @@ function showPosition(position) {
         score: 1.5,
         views: 298,
         city: "azargharbi",
-        url: "./Aghdasie",
+        url: "/Aghdasie",
         result: haversine_distance(userlocx,userlocy,places.loc6.locx ,places.loc6.locy),
     },
 ]

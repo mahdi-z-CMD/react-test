@@ -72,7 +72,7 @@ const Vidslider = (propsvid) => {
         </div>
     </div>
     <div class="login-area">
-      <Link to='./Singin' className='lgn'>بریم باهم ثبت نام کنیم</Link>
+      <Link to='/Singin' className='lgn'>بریم باهم ثبت نام کنیم</Link>
     </div>
        </>
       );
