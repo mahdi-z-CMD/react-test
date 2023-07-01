@@ -55,6 +55,9 @@
     margin-right: 3%;
 }
 @media (max-width: 768px) {
+    .bests{
+        width: 70%;
+    }
     .person-img{
         width: 30px;
         height: 30px;
