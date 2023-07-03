@@ -44,7 +44,7 @@
   color: rgba(0,0,0,.8);
 }
 /* --------- */
-.slideshow-containerr {
+.slideshow-container {
   position: relative;
 }
 
@@ -139,24 +139,33 @@
 }
 .emtiaz{
   display: flex;
-  justify-content: flex-end;
-  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .emtiaz h2{
   margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 5%;
-  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0,0.8);
 }
 .emtiaz h2 img{
-  width: 30%;
-  height: 30%;
+  width: 5%;
+  height: 5%;
 }
 .emtiaz h3{
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 5%;
+}
+.viewss{
   margin-right: 5%;
+  color: rgba(0, 0, 0,0.6);
+  font-size: 1.3rem;
+}
+.emtiaz-btn{
+  width: fit-content;
 }
 .form-singin button:hover{
   transition: all .3s;

@@ -64,6 +64,10 @@ function showPosition(position) {
           locx : 35.7920444,
           locy : 51.5038362,
       },
+      loc7 : {
+        locx : 35.7920444,
+        locy : 51.5038362,
+    },
   }
     const places2 = [
     {
@@ -137,6 +141,18 @@ function showPosition(position) {
         city: "azargharbi",
         url: "/Aghdasie",
         result: haversine_distance(userlocx,userlocy,places.loc6.locx ,places.loc6.locy),
+    },
+    {
+      name: "قیطریه",
+      detail: "اَقْدَسیه، یکی از محله‌های اعیان‌نشین شمال تهران و منطقه شمیران است. این محله در منطقه ۱ شهرداری تهران و شهرستان شمیرانات واقع است.",
+      detail2: "خیابان اقدسیه (برادران شهید موحد دانش) در شرق از میدان اقدسیه در انتهای بزرگراه ارتش آغاز شده، در میانه راه خیابان آجودانیه را قطع می‌کند و در غربی‌ترین نقطه به سه‌راه اقدسیه",
+      img: ImageData2,
+      price: 740.000,
+        score: 5.0,
+        views: 900,
+        city: "tehran",
+        url: "/Aghdasie",
+        result: haversine_distance(userlocx,userlocy,places.loc7.locx ,places.loc7.locy),
     },
 ]
    
@@ -1821,7 +1837,7 @@ byDate.sort(function(a,b) {
           <img onClick={(e) =>{setsearching(e.target.value)}} src={searchsvg} className='isearch' />
       </div>
       <select name="فیلتر" class="filter" onChange={handleChange2}>
-        <option value="none">بدون فیلتر</option>
+        <option value="none">نزدیک ترین</option>
         <option value="scoreb">بالاترین امتیاز</option>
         <option value="scorep">پایین تر امتیاز</option>
         <option value="viewb">بیشترین بازدید</option>

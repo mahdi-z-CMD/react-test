@@ -64,16 +64,15 @@ const ImageSliderAuto = (props) => {
     };
     return (
         <>
-            <div className='slideshow-container '>
+            <div className='slideshow-container'>
                 <div className={animationCls}>
                     <div className="numbertext">{ImageNo}</div>
                     <img src={ImageSrc} className='img1' alt="Img" />
                 </div>
                 <div className="matn">
-      <h1>{props.name}</h1>
       <div className='emtiaz'>
-          <h3>بازدید : {props.views}</h3>
-          <h2>{props.point} <img src={starsvg} alt="star" /></h2>
+          <h1>{props.name}</h1>
+          <h2><h3 className='viewss'>بازدید : {props.views}</h3> {props.point} <img src={starsvg} alt="star" /> </h2>
           <h1>قیمت : {props.price}</h1>
       </div>
       <p>{props.detail1}
@@ -87,7 +86,7 @@ const ImageSliderAuto = (props) => {
         <button onClick={toggleExpanded}>
         {isExpanded ? 'بستن' : 'ادامه'}
       </button>
-      <Link to={props.url}><button>
+      <Link to={props.url} className='emtiaz-btn'><button>
         ثبت نام
       </button></Link>
     </div>
