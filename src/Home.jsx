@@ -75,24 +75,37 @@ const Home = (() => {
     <h1 className='logos-h1'>ورزش ها</h1>
     <div className='logos-area'>
         <Logos image={badminton} name="بدمینتون" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
-        <Logos image={barbell} name="بدن سازی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار"></Logos>
-        <Logos image={basketballball} name="بسکتبال"details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار"></Logos>
-        <Logos image={bowling} name="بولینگ" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار"></Logos>
-        <Logos image={chess} name="شطرنج" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار"></Logos>
-        <Logos image={fight} name="رزمی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار"></Logos>
-        <Logos image={football} name="فوتبال"></Logos>
-        <Logos image={golf} name="گلف"></Logos>
-        <Logos image={gymnast} name="ژیمناستیک"></Logos>
-        <Logos image={mountainClimb} name="کوه نوردی"></Logos>
-        <Logos image={pingPong} name="پینگ پنگ"></Logos>
-        <Logos image={reshot} name="تیر و کمان"></Logos>
-        <Logos image={runningRun} name="دو میدانی"></Logos>
-        <Logos image={skate} name="اسکیت"></Logos>
-        <Logos image={skateboard} name="اسکیت برد"></Logos>
-        <Logos image={swimming} name="شنا"></Logos>
-        <Logos image={tennis} name="تنیس"></Logos>
-        <Logos image={volleyball} name="والیبال"></Logos>
-        <Logos image={billiard} name="بیلیارد"></Logos>
+        <Logos image={barbell} name="بدن سازی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={basketballball} name="بسکتبال"details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={bowling} name="بولینگ" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={chess} name="شطرنج" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={fight} name="رزمی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={football} name="فوتبال" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={golf} name="گلف" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={gymnast} name="ژیمناستیک" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={mountainClimb} name="کوه نوردی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={pingPong} name="پینگ پنگ" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={reshot} name="تیر و کمان" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={runningRun} name="دو میدانی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={skate} name="اسکیت" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={skateboard} name="اسکیت برد" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={swimming} name="شنا" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={tennis} name="تنیس" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={volleyball} name="والیبال" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+        <Logos image={billiard} name="بیلیارد" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    </div>
+    <h1 className='logos-h1'>ورزش ها</h1>
+    <div className="logos-area">
+    <Logos image={actor} name="بازیگری" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={cooking} name="آشپزی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={desktopPc} name="کامپیوتر" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={graphicDesign} name="دیزاین" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={lollipop} name="شیرینی پزی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={movie} name="فیلمبرداری" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={musicalsixteenthnote} name="موزیکال" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={photo} name="عکاسی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={robot} name="رباتیک" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={photoshopp} name="فتوشاپ" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
     </div>
     </div>
   )
