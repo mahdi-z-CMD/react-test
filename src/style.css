@@ -136,6 +136,9 @@
     font-size: 0.9rem;
     margin-right: 3%;
   }
+  .logos-names p{
+    direction: rtl;
+  }
   /* end logos-area */
   @keyframes loading {
     0%   { transform: translate(-50%, -50%) rotate(25deg);  }
@@ -551,6 +554,39 @@
       .sports{
         margin-top: 10%;
       }
+      .logos-h1{
+        direction: rtl;
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        margin-left: 3%;
+      }
+      .logos-area{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .logos{
+        flex-basis: 35%;
+      }
+      .logos img{
+        width: 65px;
+        height: 65px;
+      }
+      .logos-names{
+        direction: rtl;
+        color: black;
+        margin-bottom: auto;
+        margin-top: auto;
+        font-size: 0.9rem;
+        margin-right: 3%;
+      }
+      .logos-names p{
+        direction: rtl;
+        font-size: 0.9rem;
+      }
   }
   @media only screen and (max-width: 500px){
     .filter{
@@ -625,5 +661,22 @@
       border-radius: 8px;
       direction: rtl;
       font-family: 'dana';
+    }
+    .logos-h1{
+      font-size: 2rem;
+    }
+    .logos{
+      padding: 1%;
+      padding-right: 10%;
+      padding-left: 10%;
+      margin-bottom: 8%;
+      flex-basis: 55%;
+    }
+    .logos img{
+      width: 50px;
+      height: 50px;
+    }
+    .logos-names{
+      font-size: 0.8rem;
     }
   }

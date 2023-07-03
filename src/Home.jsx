@@ -107,6 +107,17 @@ const Home = (() => {
     <Logos image={robot} name="رباتیک" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
     <Logos image={photoshopp} name="فتوشاپ" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
     </div>
+    <h1 className='logos-h1'>ورزش ها</h1>
+    <div className="logos-area">
+    <Logos image={cafe} name="کافه" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={kitchen} name="رستوران" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={popcorn} name="تئاتر" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={safety} name="اسکیپ روم" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={swimmingpool} name="پارک آبی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={theater} name="سینما" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={tour} name="تور" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos image={travel} name="گردشگری" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    </div>
     </div>
   )
 })
