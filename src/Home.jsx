@@ -43,6 +43,7 @@ import { Link } from 'react-router-dom';
 import badmintonsvg from './images/badminton.webp'
 import { ImageData,ImageData2, ImageData3,ImageData4} from './JsonData';
 import Sliderhome from './Sliderhome';
+import kids from "./images/kids.jpeg"
 // ----------
 const Logos = (items) =>{
   return(
@@ -63,7 +64,6 @@ const Home = (() => {
   const [cat, setcat] = useState(0)
   return (
     <div>
-        <Sliderhome ImageData={ImageData} SlideInterValTime={ 3000}/>
 
     <div className="categories">
       <h1 onClick={() => setcat(0)}>ورزش ها</h1>
