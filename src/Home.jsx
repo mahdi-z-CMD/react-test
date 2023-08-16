@@ -66,6 +66,7 @@ const Home = (() => {
     <div>
       <div className="intor">
       <p className='bama'>تعطیلات تابستان را با ما بگذرانید</p>
+      <p className='darteh'>در تهران و تمامی استان ها</p>
       <button className='singinintor'>ثبت نام</button>
       </div>
     <h1 className='selectcat'>دسته بندی را انتخاب کنید</h1>
