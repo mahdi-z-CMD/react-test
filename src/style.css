@@ -144,7 +144,9 @@
   }
   .logos{
     display: flex;
-    background-color: rgba(128, 128, 128,0.1);
+    background-color: rgba(128, 128, 128,0.2);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     flex-direction: row-reverse;
     width: 20%;
     border-radius: 10px;
@@ -166,6 +168,16 @@
   }
   .logos-names p{
     direction: rtl;
+  }
+  .intor{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intor img{
+    border-radius: 10px;
+
   }
   /* end logos-area */
   @keyframes loading {

@@ -64,7 +64,9 @@ const Home = (() => {
   const [cat, setcat] = useState(0)
   return (
     <div>
-
+      <div className="intor">
+      <img src={kids} alt="kids playing" />
+      </div>
     <div className="categories">
       <h1 onClick={() => setcat(0)}>ورزش ها</h1>
       <h1 onClick={() => setcat(1)}>تفریحات</h1>
