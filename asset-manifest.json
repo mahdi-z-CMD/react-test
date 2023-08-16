@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-test/static/css/main.3aa6c225.css",
-    "main.js": "/react-test/static/js/main.ca721ebc.js",
+    "main.css": "/react-test/static/css/main.4491b906.css",
+    "main.js": "/react-test/static/js/main.83a81afb.js",
     "static/js/787.77b4b6b1.chunk.js": "/react-test/static/js/787.77b4b6b1.chunk.js",
     "static/media/Forest stream in the sunlight - Free Stock Video.mp4": "/react-test/static/media/Forest stream in the sunlight - Free Stock Video.3f10412d486fc7c1c6ec.mp4",
     "static/media/Going down a curved highway through a mountain range - Free Stock Video.mp4": "/react-test/static/media/Going down a curved highway through a mountain range - Free Stock Video.3f10412d486fc7c1c6ec.mp4",
@@ -9,6 +9,7 @@
     "static/media/preview3.png": "/react-test/static/media/preview3.e5ea4f42039540b6b0b6.png",
     "static/media/gymnast.png": "/react-test/static/media/gymnast.12e86e9ea2068c9fe4e9.png",
     "static/media/preview2.png": "/react-test/static/media/preview2.5e3d9805d4468e5da288.png",
+    "static/media/kids.jpeg": "/react-test/static/media/kids.5fca1615d4be772f8923.jpeg",
     "static/media/swimming.png": "/react-test/static/media/swimming.77382c45ef14f8c2fdf0.png",
     "static/media/basketballball.png": "/react-test/static/media/basketballball.5d95b2e36b2036a73f88.png",
     "static/media/travel.png": "/react-test/static/media/travel.9b75b2ded52be814f922.png",
@@ -57,12 +58,12 @@
     "static/media/star.svg": "/react-test/static/media/star.ac4e3d91bff0c5cfa0adde41020c43c8.svg",
     "static/media/location.svg": "/react-test/static/media/location.6683d5ee72a662bef67dabf663829414.svg",
     "static/media/mail.svg": "/react-test/static/media/mail.223207b841c741e1288ebfe24164944a.svg",
-    "main.3aa6c225.css.map": "/react-test/static/css/main.3aa6c225.css.map",
-    "main.ca721ebc.js.map": "/react-test/static/js/main.ca721ebc.js.map",
+    "main.4491b906.css.map": "/react-test/static/css/main.4491b906.css.map",
+    "main.83a81afb.js.map": "/react-test/static/js/main.83a81afb.js.map",
     "787.77b4b6b1.chunk.js.map": "/react-test/static/js/787.77b4b6b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aa6c225.css",
-    "static/js/main.ca721ebc.js"
+    "static/css/main.4491b906.css",
+    "static/js/main.83a81afb.js"
   ]
 }
