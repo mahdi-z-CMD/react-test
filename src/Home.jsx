@@ -43,7 +43,7 @@ import { Link } from 'react-router-dom';
 import badmintonsvg from './images/badminton.webp'
 import { ImageData,ImageData2, ImageData3,ImageData4} from './JsonData';
 import Sliderhome from './Sliderhome';
-import kids from "./images/kids.jpeg"
+import kids from "./images/bg.jpg"
 // ----------
 const Logos = (items) =>{
   return(
@@ -65,13 +65,10 @@ const Home = (() => {
   return (
     <div>
       <div className="intor">
-      <img src={kids} alt="kids playing" />
-      <div className="introtxt">
       <p className='bama'>تعطیلات تابستان را با ما بگذرانید</p>
-      <p className='darteh'>در تهران و سایر شهر ها</p>
-      <button className='singinintor'>ثبت نام {'>'}</button>
+      <button className='singinintor'>ثبت نام</button>
       </div>
-      </div>
+    <h1 className='selectcat'>دسته بندی را انتخاب کنید</h1>
     <div className="categories">
       <h1 className='cat1' onClick={() => setcat(0)}>ورزش ها</h1>
       <h1 className='cat2' onClick={() => setcat(1)}>تفریحات</h1>
