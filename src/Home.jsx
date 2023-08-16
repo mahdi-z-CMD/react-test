@@ -66,14 +66,19 @@ const Home = (() => {
     <div>
       <div className="intor">
       <img src={kids} alt="kids playing" />
+      <div className="introtxt">
+      <p className='bama'>تعطیلات تابستان را با ما بگذرانید</p>
+      <p className='darteh'>در تهران و سایر شهر ها</p>
+      <button className='singinintor'>ثبت نام {'>'}</button>
+      </div>
       </div>
     <div className="categories">
-      <h1 onClick={() => setcat(0)}>ورزش ها</h1>
-      <h1 onClick={() => setcat(1)}>تفریحات</h1>
-      <h1 onClick={() => setcat(2)}>مکان ها</h1>
+      <h1 className='cat1' onClick={() => setcat(0)}>ورزش ها</h1>
+      <h1 className='cat2' onClick={() => setcat(1)}>تفریحات</h1>
+      <h1 className='cat3' onClick={() => setcat(2)}>مکان ها</h1>
     </div>
     <div className='logos-area' style={{display: cat  === 0 ? "flex" : "none"}}>
-    <Logos image={badminton} name="بدمینتون" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
+    <Logos className="kir" image={badminton} name="بدمینتون" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
               <Logos image={barbell} name="بدن سازی" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
               <Logos image={basketballball} name="بسکتبال"details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
               <Logos image={bowling} name="بولینگ" details="ورزش بدمینتون (به انگلیسی: Badminton) ورزشی است که با توپ پردار" url={"/badminton"}></Logos>
