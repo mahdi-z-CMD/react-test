@@ -54,6 +54,7 @@
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       background-color: #101010;
+      z-index: 3;
   }
   
   .nav-menu {
@@ -566,8 +567,6 @@
     width: 17%;
     font-size: 1rem;
   }
-  body{
-  }
   .nav-logo{
     margin-left: 100%;
   }
@@ -712,6 +711,52 @@
         direction: rtl;
         font-size: 0.9rem;
       }
+    .hamburger{
+      background-color: transparent;
+      border: none;
+      z-index: 3;
+      color: white;
+    }
+    .intor{
+      background-image: none;
+    }
+    .nav-link{
+      color: #101010;
+    }
+    .nav-menu{
+      width: 45%;
+    }
+    .nav-link{
+      margin-right: 1rem;
+    }
+    .bama{
+      color: white;
+      margin-top: 40%;
+      font-size: 4.5rem;
+      text-align: center;
+    }
+    .darteh{
+      color: white;
+      margin-top: 6%;
+      font-size: 1.7rem;
+    }
+    .singinintor{
+      margin-top: 10%;
+      width: 30%;
+    }
+    .intor{
+      height: 70vh;
+    }
+    .selectcat{
+      font-size: 3rem;
+      box-shadow: none;
+      border-bottom: 1px solid white;
+      padding-bottom: 5%;
+    }
+    .categories{
+      margin-top: 5%;
+    }
+   
   }
   @media only screen and (max-width: 500px){
     .filter{
@@ -792,10 +837,10 @@
     }
     .logos{
       padding: 1%;
-      padding-right: 10%;
-      padding-left: 10%;
+      padding-right: 2%;
+      padding-left: 2%;
       margin-bottom: 8%;
-      flex-basis: 55%;
+      flex-basis: 75%;
     }
     .logos img{
       width: 50px;
@@ -803,5 +848,10 @@
     }
     .logos-names{
       font-size: 0.8rem;
+    }
+    .logos-names p{
+      margin-top: 5%;
+      padding-bottom: 3%;
+      font-size: 1.2rem;
     }
   }
