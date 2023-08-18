@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-test/static/css/main.b9219685.css",
+    "main.css": "/react-test/static/css/main.1616f636.css",
     "main.js": "/react-test/static/js/main.ea5d760d.js",
     "static/js/787.77b4b6b1.chunk.js": "/react-test/static/js/787.77b4b6b1.chunk.js",
     "static/media/Forest stream in the sunlight - Free Stock Video.mp4": "/react-test/static/media/Forest stream in the sunlight - Free Stock Video.3f10412d486fc7c1c6ec.mp4",
@@ -58,12 +58,12 @@
     "static/media/star.svg": "/react-test/static/media/star.ac4e3d91bff0c5cfa0adde41020c43c8.svg",
     "static/media/location.svg": "/react-test/static/media/location.6683d5ee72a662bef67dabf663829414.svg",
     "static/media/mail.svg": "/react-test/static/media/mail.223207b841c741e1288ebfe24164944a.svg",
-    "main.b9219685.css.map": "/react-test/static/css/main.b9219685.css.map",
+    "main.1616f636.css.map": "/react-test/static/css/main.1616f636.css.map",
     "main.ea5d760d.js.map": "/react-test/static/js/main.ea5d760d.js.map",
     "787.77b4b6b1.chunk.js.map": "/react-test/static/js/787.77b4b6b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9219685.css",
+    "static/css/main.1616f636.css",
     "static/js/main.ea5d760d.js"
   ]
 }
