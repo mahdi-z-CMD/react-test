@@ -26,7 +26,7 @@ function Navbar() {
           <Link to="/Login" className='login-btn'>ورود / ثبت نام </Link>
         </li>
         <li className="nav-item">
-          <a href="#about" className="nav-link" onClick={closeMenu}>پیگیری ثبت نام</a>
+          <Link to="/Peygiri" className='nav-link'>پیگیری ثبت نام</Link>
         </li>
         <li className="nav-item">
           <Link to="/Aboutus" className='nav-link'>چرا فرزندم را اینجا ثبت نام کنم؟</Link>

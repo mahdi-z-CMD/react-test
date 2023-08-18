@@ -11,6 +11,7 @@ import Login from './Login';
 import Singin from './Singin'
 import Aboutus from './Aboutus';
 import Bartarin from './Bartarin';
+import Peygiri from './Peygiri';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "Bartarin",
     element: <Bartarin/>,
+  },
+  {
+    path: "Peygiri",
+    element: <Peygiri/>,
   },
 ]);
 
